@@ -1,5 +1,9 @@
 #!/bin/bash
-echo $WHOAMI
-echo $date
-echo "i am the boss" > test2.txt
-df -h 
+echo " please enter your name! "
+read name 
+echo ""
+echo " how old are you? "
+read age
+if age >= 50 
+echo "wow"
+
